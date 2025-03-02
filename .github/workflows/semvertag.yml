@@ -22,6 +22,8 @@ jobs:
         run: |
           mkdir bin
           echo "$(pwd)/bin" >> $GITHUB_PATH
+          echo $PWD
+          ls -ltR
 
       - name: install semverbot
         run: |
