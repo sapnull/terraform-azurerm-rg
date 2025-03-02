@@ -1,0 +1,24 @@
+mode = "auto"
+
+[git]
+
+[git.config]
+email = "sapnull@sapnull.nowhere"
+name = "sapnull"
+
+[git.tags]
+prefix = "v"
+suffix = ""
+
+[semver]
+patch = ["fix", "bug", "hotfix"]
+minor = ["feature"]
+major = ["release"]
+
+[modes]
+
+[modes.git-branch]
+delimiters = "/"
+
+[modes.git-commit]
+delimiters = "[]/"
