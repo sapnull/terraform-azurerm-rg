@@ -24,6 +24,7 @@ jobs:
           echo "$(pwd)/bin" >> $GITHUB_PATH
           echo $PWD
           ls -ltR
+          git status -v
 
       - name: install semverbot
         run: |
